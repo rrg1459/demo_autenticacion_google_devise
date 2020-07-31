@@ -13,7 +13,7 @@ gem 'wkhtmltopdf-binary'
 gem 'unidecoder'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '>= 5.0.0.rc1', '< 5.1'
+gem 'rails', '>= 5.2.4.3'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
@@ -55,9 +55,3 @@ gem 'omniauth-google-oauth2'
 
 gem 'carrierwave', '~> 1.0'
 gem 'mini_magick'
-
-###
-
-# gem "actionpack", ">= 5.2.4.3"
-# gem "activesupport", ">= 5.2.4.3"
-# gem "actionview", ">= 5.2.4.3"
