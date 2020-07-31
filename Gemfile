@@ -55,3 +55,9 @@ gem 'omniauth-google-oauth2'
 
 gem 'carrierwave', '~> 1.0'
 gem 'mini_magick'
+
+###
+
+# gem "actionpack", ">= 5.2.4.3"
+# gem "activesupport", ">= 5.2.4.3"
+# gem "actionview", ">= 5.2.4.3"
