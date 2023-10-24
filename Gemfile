@@ -13,9 +13,10 @@ gem 'wkhtmltopdf-binary'
 gem 'unidecoder'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '>= 5.2.4.3'
+gem 'rails'
 # Use Puma as the app server
-gem 'puma', '~> 3.0'
+gem 'puma', '~> 4.3.8'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -53,5 +54,5 @@ gem 'tzinfo-data'
 
 gem 'omniauth-google-oauth2'
 
-gem 'carrierwave', '~> 1.0'
+gem 'carrierwave' #, '~> 1.0'
 gem 'mini_magick'
