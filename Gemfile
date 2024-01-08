@@ -15,7 +15,7 @@ gem 'unidecoder'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
 # Use Puma as the app server
-gem 'puma', '~> 4.3.8'
+gem 'puma', '~> 5.6.8'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
