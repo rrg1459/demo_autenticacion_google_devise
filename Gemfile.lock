@@ -130,7 +130,7 @@ GEM
       timeout
     net-smtp (0.4.0)
       net-protocol
-    nio4r (2.5.9)
+    nio4r (2.7.0)
     nokogiri (1.13.10)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
@@ -161,7 +161,7 @@ GEM
     pry-rails (0.3.9)
       pry (>= 0.10.4)
     public_suffix (5.0.3)
-    puma (4.3.12)
+    puma (5.6.8)
       nio4r (~> 2.0)
     racc (1.7.1)
     rack (2.2.8)
@@ -278,7 +278,7 @@ DEPENDENCIES
   omniauth-google-oauth2
   pg
   pry-rails
-  puma (~> 4.3.8)
+  puma (~> 5.6.8)
   rails
   rails_12factor
   sass-rails (~> 5.0)
