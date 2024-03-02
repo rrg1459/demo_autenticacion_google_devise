@@ -15,7 +15,7 @@ gem 'unidecoder'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
 # Use Puma as the app server
-gem 'puma', '~> 4.3.8'
+gem 'puma', '~> 5.6.7'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -30,7 +30,7 @@ gem 'bootstrap-sass'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
-gem 'turbolinks', '>= 5.0.0.beta2'
+gem 'turbolinks' # , '>= 5.0.0.beta2'
 
 gem 'devise'
 
@@ -42,7 +42,7 @@ group :development do
 end
 
 group :production do
-	gem 'pg'
+	gem 'pg',  '= 1.5.4'
   gem 'rails_12factor'
 end
 
